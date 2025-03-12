@@ -2,3 +2,5 @@
 #input 10 numbers
 #process
 #print how many even numbers are there.
+
+numbers = [int(input("type a number: ")) for _ in range (10)]
