@@ -2,3 +2,6 @@
 # input two numbers
 # process
 # print "Not Equal" when the numbers are not the same
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
