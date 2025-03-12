@@ -4,5 +4,5 @@
 #print result
 
 for num in range(101):
-    if num % 10 != 0:  # Exclude numbers that end in 0
+    if num % 10 != 0:  
         print(num)
