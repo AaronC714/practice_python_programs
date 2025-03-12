@@ -2,3 +2,6 @@
 # input two numbers
 # process
 # print product
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
