@@ -2,3 +2,6 @@
 #input 10 numbers
 #process
 #print the result of the first number minus all of the remaining numbers.
+
+
+numbers = [int(input(f"Enter number {i+1}: ")) for i in range(10)]
