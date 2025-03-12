@@ -2,3 +2,6 @@
 # input two numbers
 # process
 # print sum of the two numbers
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
