@@ -2,3 +2,5 @@
 # input ten numbers
 # process
 # print number of odd numbers 
+
+num1 = [int(input("Type a number: ")) for _ in range (10)]
