@@ -2,3 +2,5 @@
 #input 10 numbers
 #process
 #display all numbers that don't have duplicate
+
+numbers = [int(input("type a number: ")) for _ in range (10)]
