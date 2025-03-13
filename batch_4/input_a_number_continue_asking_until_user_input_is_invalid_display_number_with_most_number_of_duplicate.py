@@ -2,3 +2,5 @@
 #user input of 10 numbers
 #process
 #display the number with the most number of duplicate
+
+inputted_num = [int(input(f"Enter number {i+1}: ")) for i in range(10)]
