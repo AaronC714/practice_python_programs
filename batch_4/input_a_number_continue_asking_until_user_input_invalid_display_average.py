@@ -11,3 +11,9 @@ while True:
         inputted_numbers.append(num)  # Add valid number to the list
     except ValueError:
         break
+
+if inputted_numbers:
+    average = sum(inputted_numbers) / len(inputted_numbers)  # Compute average
+    print("The average of the entered numbers is:", average)
+else:
+    print("No valid numbers were entered.")
