@@ -9,7 +9,6 @@ inputted_numbers = []
 
 while True:
     try:
-        # Ask user for a number
         num = int(input("Enter a number (or any non-number to stop): "))
 
         # Check if the number is a duplicate
@@ -18,3 +17,7 @@ while True:
         else:
             print("Unique")
             inputted_numbers.append(num)  # Add to list if unique
+    except ValueError:
+        # Break the loop when input is invalid (not a number)
+        print("Invalid input! Stopping program.")
+        break
