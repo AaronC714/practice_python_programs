@@ -12,3 +12,10 @@ while True:
     except ValueError:
         # Break the loop if input is invalid
         break
+
+# Sort and display numbers if any were entered
+if inputted_numbers:
+    inputted_numbers.sort()  # Sort the list in ascending order
+    print("Numbers from lowest to highest:", inputted_numbers)
+else:
+    print("No valid numbers were entered.")
