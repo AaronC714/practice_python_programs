@@ -2,3 +2,5 @@
 #ask input from user
 #continue asking until non integer input
 #compute average
+
+inputted_numbers = []
