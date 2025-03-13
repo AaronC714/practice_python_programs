@@ -2,3 +2,6 @@
 #ask user for input
 #continue asking until invalid
 #display number in ascending order
+
+
+inputted_numbers = []
