@@ -4,3 +4,10 @@
 #compute average
 
 inputted_numbers = []
+
+while True:
+    try:
+        num = float(input("Enter a number (or any non-number to stop): "))
+        inputted_numbers.append(num)  # Add valid number to the list
+    except ValueError:
+        break
