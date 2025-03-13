@@ -14,4 +14,8 @@ while True:
             highest_number = num  
     except ValueError:
         break
-    
+
+if highest_number is not None:
+    print("The highest number entered is:", highest_number)
+else:
+    print("No valid numbers were entered.")
