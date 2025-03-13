@@ -11,3 +11,9 @@ while True:
         inputted_numbers.append(num)  # Add valid number to the list
     except ValueError:
         break
+
+if inputted_numbers:
+    inputted_numbers.sort(reverse=True)  # Sort in descending order
+    print("Numbers from highest to lowest:", inputted_numbers)
+else:
+    print("No valid numbers were entered.")
