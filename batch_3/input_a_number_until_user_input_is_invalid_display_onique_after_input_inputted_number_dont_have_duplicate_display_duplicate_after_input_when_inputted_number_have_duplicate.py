@@ -11,3 +11,10 @@ while True:
     try:
         # Ask user for a number
         num = int(input("Enter a number (or any non-number to stop): "))
+
+        # Check if the number is a duplicate
+        if num in inputted_numbers:
+            print("Duplicate")
+        else:
+            print("Unique")
+            inputted_numbers.append(num)  # Add to list if unique
