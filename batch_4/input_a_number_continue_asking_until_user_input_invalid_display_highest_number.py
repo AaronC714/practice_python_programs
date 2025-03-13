@@ -4,3 +4,8 @@
 #print highest number
 
 highest_number = None
+
+while True:
+    try:
+        # Ask the user for a number
+        num = int(input("Enter a number (or any non-number to stop): "))
