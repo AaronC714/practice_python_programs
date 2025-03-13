@@ -17,3 +17,9 @@ while True:
     except ValueError:
         # Break the loop if input is invalid
         break
+
+# Display the lowest number if any numbers were entered
+if lowest_number is not None:
+    print("The lowest number entered is:", lowest_number)
+else:
+    print("No valid numbers were entered.")
