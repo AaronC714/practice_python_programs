@@ -4,3 +4,4 @@
 #display all numbers that don't have duplicate
 
 numbers = [int(input("type a number: ")) for _ in range (10)]
+unique_numbers = [num for num in numbers if numbers.count(num) == 1]
