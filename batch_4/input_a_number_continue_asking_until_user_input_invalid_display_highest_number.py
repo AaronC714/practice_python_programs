@@ -9,3 +9,9 @@ while True:
     try:
         # Ask the user for a number
         num = int(input("Enter a number (or any non-number to stop): "))
+
+        if highest_number is None or num > highest_number:
+            highest_number = num  
+    except ValueError:
+        break
+    
