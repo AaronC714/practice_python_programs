@@ -22,3 +22,7 @@ if inputted_numbers:
     
     # Extract the number and its count
     number, count = most_common[0]
+
+    print(f"The number with the most duplicates is: {number} (appeared {count} times)")
+else:
+    print("No valid numbers were entered.")
