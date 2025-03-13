@@ -4,3 +4,10 @@
 #display numbers in descending order
 
 inputted_numbers = []
+
+while True:
+    try:
+        num = int(input("Enter a number (or any non-number to stop): "))
+        inputted_numbers.append(num)  # Add valid number to the list
+    except ValueError:
+        break
