@@ -3,3 +3,5 @@
 #display all numbers that have duplicate
 
 inputted_num = [int(input(f"Enter number {i+1}: ")) for i in range(10)]
+
+duplicates = sorted(set(num for num in inputted_num if inputted_num.count(num) > 1))
