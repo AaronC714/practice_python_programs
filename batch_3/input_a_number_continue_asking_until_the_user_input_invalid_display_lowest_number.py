@@ -10,3 +10,10 @@ while True:
     try:
         # Ask the user for a number
         num = int(input("Enter a number (or any non-number to stop): "))
+
+        # Check if it's the lowest number so far
+        if lowest_number is None or num < lowest_number:
+            lowest_number = num  # Update lowest number
+    except ValueError:
+        # Break the loop if input is invalid
+        break
