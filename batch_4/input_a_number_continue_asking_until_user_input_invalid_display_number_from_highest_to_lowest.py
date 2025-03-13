@@ -2,3 +2,5 @@
 #ask number input from user
 #continue asking until invalid
 #display numbers in descending order
+
+inputted_numbers = []
