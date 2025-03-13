@@ -8,3 +8,7 @@ inputted_numbers = []
 while True:
     try:
         num = int(input("Enter a number (or any non-number to stop): "))
+        inputted_numbers.append(num)  # Add valid number to the list
+    except ValueError:
+        # Break the loop when input is invalid
+        break
