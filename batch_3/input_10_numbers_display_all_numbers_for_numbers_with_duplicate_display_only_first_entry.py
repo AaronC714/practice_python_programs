@@ -3,4 +3,9 @@
 #process
 #display all numbers. For numbers with duplicate, display only the first entry.
 
-numbers = [int(input("type a number: ")) for _ in range (10)]
+numbers = [int(input(f"type a number {i+1}: ")) for i in range (10)]
+first_entry = []
+for num in numbers:
+    if num not in first_entry:
+        first_entry.append(num)
+        print (num)
