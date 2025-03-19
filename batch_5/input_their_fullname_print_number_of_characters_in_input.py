@@ -5,3 +5,4 @@
 
 user_name = str(input("Type your name: "))
 character_count = len(user_name)
+print ("The number of characters in your name is: ", character_count)
