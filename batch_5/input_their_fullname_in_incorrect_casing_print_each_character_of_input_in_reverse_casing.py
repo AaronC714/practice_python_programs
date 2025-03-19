@@ -2,3 +2,5 @@
 #ask user for their full name in incorrect casing
 #reverse casing
 #print each letter of the name in reverse casing
+
+user_name = str(input("Type your full name in an incorrect casing for (e.g.  jUAn DEla CrUZ): "))
