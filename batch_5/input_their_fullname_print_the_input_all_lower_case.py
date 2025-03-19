@@ -4,3 +4,4 @@
 #print user's name in lowercase letters
 
 user_name = str(input("Type your name: "))
+lower_case = user_name.lower()
