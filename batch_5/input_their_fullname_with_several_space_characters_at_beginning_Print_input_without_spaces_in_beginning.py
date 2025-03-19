@@ -2,3 +2,5 @@
 #ask user for full name with with several space characters at the beginning
 #process
 #print full name without the spaces
+
+user_name = input(str("please input multiple space characters as you wish then add your full name, (for example:        Juan Dela Cruz): "))
