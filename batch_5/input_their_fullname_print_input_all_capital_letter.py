@@ -5,3 +5,4 @@
 
 user_name = str(input("Type your name: "))
 all_caps = user_name.upper()
+print ("full name in all caps: ", all_caps)
