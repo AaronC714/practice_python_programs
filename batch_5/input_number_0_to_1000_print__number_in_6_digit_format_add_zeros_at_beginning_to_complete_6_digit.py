@@ -6,3 +6,4 @@
 num = int(input("Enter a number (0-1000): "))
 
 fixed_num = f"{num:06d}"
+print("Inputted number in 6 digits:", fixed_num)
