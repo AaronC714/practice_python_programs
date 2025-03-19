@@ -2,3 +2,5 @@
 #ask name from user in incorrect casing
 #process pascal case
 #print name in pascal case
+
+user_name = str(input("Type your full name in an incorrect casing for (e.g.  jUAn DEla CrUZ): "))
