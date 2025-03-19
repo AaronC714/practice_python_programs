@@ -1,1 +1,4 @@
 #Prog03: Create a program that ask the user to input their fullname. Print the input in all capital letter.
+#ask users full name
+#process to full name
+#print user's name in capital letters
