@@ -5,3 +5,4 @@
 
 user_name = str(input("Type your full name in an incorrect casing for (e.g.  jUAn DEla CrUZ): "))
 snake_naming = user_name.lower().replace(" ", "_")
+print ("Your name in snake casing is: ", snake_naming)
