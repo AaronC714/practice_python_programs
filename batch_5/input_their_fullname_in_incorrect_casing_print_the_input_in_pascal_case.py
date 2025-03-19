@@ -4,3 +4,4 @@
 #print name in pascal case
 
 user_name = str(input("Type your full name in an incorrect casing for (e.g.  jUAn DEla CrUZ): "))
+pascal_naming = user_name.title().replace(" ", "")
