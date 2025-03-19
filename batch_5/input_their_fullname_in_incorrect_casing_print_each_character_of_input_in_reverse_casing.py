@@ -4,3 +4,4 @@
 #print each letter of the name in reverse casing
 
 user_name = str(input("Type your full name in an incorrect casing for (e.g.  jUAn DEla CrUZ): "))
+swap_case = user_name.swapcase()
