@@ -2,3 +2,5 @@
 #ask user for statement
 #count number of words
 #print number of words
+
+user_statement = str(input("Type a statement: "))
