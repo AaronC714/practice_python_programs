@@ -4,3 +4,4 @@
 #print number of words
 
 user_statement = str(input("Type a statement: "))
+number_word = len(user_statement.split())
