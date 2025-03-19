@@ -2,3 +2,5 @@
 #ask users full name
 #process to full name
 #print user's name in capital letters
+
+user_name = str(input("Type your name: "))
